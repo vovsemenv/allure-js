@@ -1391,13 +1391,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/mocha@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "@types/mocha@npm:9.0.0"
-  checksum: 73e6edaba045bc250b69085a770d5029edfed006ed8e75344435474a2cb8d38064acd7b34b6cc62756caa845a5cf335bde66db11e8c8c6565c62a790e933704a
-  languageName: node
-  linkType: hard
-
 "@types/node@npm:*":
   version: 16.7.4
   resolution: "@types/node@npm:16.7.4"
@@ -6188,42 +6181,6 @@ __metadata:
   linkType: hard
 
 "mocha@npm:9.1.1, mocha@npm:^9.1.1":
-  version: 9.1.1
-  resolution: "mocha@npm:9.1.1"
-  dependencies:
-    "@ungap/promise-all-settled": 1.1.2
-    ansi-colors: 4.1.1
-    browser-stdout: 1.3.1
-    chokidar: 3.5.2
-    debug: 4.3.1
-    diff: 5.0.0
-    escape-string-regexp: 4.0.0
-    find-up: 5.0.0
-    glob: 7.1.7
-    growl: 1.10.5
-    he: 1.2.0
-    js-yaml: 4.1.0
-    log-symbols: 4.1.0
-    minimatch: 3.0.4
-    ms: 2.1.3
-    nanoid: 3.1.23
-    serialize-javascript: 6.0.0
-    strip-json-comments: 3.1.1
-    supports-color: 8.1.1
-    which: 2.0.2
-    wide-align: 1.1.3
-    workerpool: 6.1.5
-    yargs: 16.2.0
-    yargs-parser: 20.2.4
-    yargs-unparser: 2.0.0
-  bin:
-    _mocha: bin/_mocha
-    mocha: bin/mocha
-  checksum: b45b6aabe9012a4074cd21a5f11726fd26b7e33081961ce364819169ceacd654fa89fb7f07b7f1395ea46bb2613a59e37af5e3249ce366a8be8ef6ed890e72f1
-  languageName: node
-  linkType: hard
-
-"mocha@npm:^9.1.1":
   version: 9.1.1
   resolution: "mocha@npm:9.1.1"
   dependencies:
