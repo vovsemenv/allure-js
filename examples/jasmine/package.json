@@ -1,0 +1,30 @@
+{
+  "name": "jasmine-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "7.18.10",
+    "@babel/preset-typescript": "^7.18.6",
+    "@babel/register": "^7.18.9",
+    "jasmine": "^4.3.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-typescript",
+      "@babel/preset-env"
+    ]
+  },
+  "dependencies": {
+    "@types/jasmine": "^4.3.0",
+    "@types/node": "^16.11.56",
+    "allure-jasmine": "^2.0.0-beta.19",
+    "allure-js-commons": "2.0.0-beta.19"
+  }
+}
